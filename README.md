@@ -10,18 +10,18 @@ This is the official code repository for "GAL-UNet: A Lightweight Solution for P
 - './data/isic17/'
   - train
     - images
-      - .png
+      - .bmp
     - masks
       - .png
   - val
     - images
-      - .png
+      - .bmp
     - masks
       - .png
 
-**2. Train the EGE-UNet.**
+**2. Train the GAL-UNet.**
 ```
-cd EGE-UNet
+cd GAL-UNet
 ```
 ```
 python train.py
