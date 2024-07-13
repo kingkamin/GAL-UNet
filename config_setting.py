@@ -9,10 +9,10 @@ class setting_config:
     network = 'GALUNet'
     datasets = 'mydata'
 
-    path_of_image_for_train = 'data/data_train/bmp/'
-    path_of_label_for_train = 'data/data_train/png/'
-    path_of_image_for_test = 'data/data_test/bmp/'
-    path_of_label_for_test = 'data/data_test/png/'
+    path_of_image_for_train = 'data/data_train/images/'
+    path_of_label_for_train = 'data/data_train/masks/'
+    path_of_image_for_test = 'data/data_test/images/'
+    path_of_label_for_test = 'data/data_test/masks/'
     
     num_classes = 8
     cls_weights = np.array([3.678794, 9.960143, 9.941758, 8.152723, 9.649734, 7.38724, 7.586404, 9.961611], np.float32)
