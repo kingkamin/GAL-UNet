@@ -8,12 +8,12 @@ This is the official code repository for "GAL-UNet: A Lightweight Solution for P
 - After downloading the datasets, you are supposed to put them into './data/', and the file format reference is as follows.
 
 - './data/'
-  - train
+  - data_train
     - images
       - .bmp
     - masks
       - .png
-  - val
+  - data_test
     - images
       - .bmp
     - masks
