@@ -3,7 +3,7 @@ This is the official code repository for "GAL-UNet: A Lightweight Solution for P
 
 **1. Prepare the dataset.**
 
-- Our real fabric defect datasets, can be found here {[Baidu](https://pan.baidu.com) or [GoogleDrive](https://drive.google.com)}. 
+- Our real fabric defect datasets, can be found here {[Baidu](https://pan.baidu.com/s/1TVPcnBtS_1hciz5GpxNRdw?pwd=b3ap) or [GoogleDrive](https://drive.google.com)}. 
 
 - After downloading the datasets, you are supposed to put them into './data/', and the file format reference is as follows.
 
