@@ -1,5 +1,5 @@
 # GAL-UNet
-This is the official code repository for "GAL-UNet: A Lightweight Solution for Precisely Detecting Large Size-Variant Defects in Imbalanced Fabric Samples".
+This is the official code repository for "GAL-UNet: Lightweight Detection of Diverse Defects in Fabric with Imbalance Resilience".
 
 **1. Prepare the dataset.**
 
