@@ -3,7 +3,7 @@ This is the official code repository for "GAL-UNet: Lightweight Detection of Div
 
 **1. Prepare the dataset.**
 
-- Our real fabric defect datasets, can be found [here](https://pan.baidu.com/s/1TVPcnBtS_1hciz5GpxNRdw?pwd=b3ap).
+- Our real fabric defect datasets, can be found [here](https://pan.baidu.com/s/1GLOU9_jM6LCGYkmeGN2P8w?pwd=f29a).
 
 - The reason for fewer json files than images in the dataset is that some images do not contain any defects, hence there are no corresponding json files for them.
 
