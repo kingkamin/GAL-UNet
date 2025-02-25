@@ -128,9 +128,9 @@ class GALUNet(nn.Module):
         self.encoder5 = GHPA_InvRes(c_list[3], c_list[4])
         self.encoder6 = GHPA_InvRes(c_list[4], c_list[5])
 
-        self.decoder1 = Grouped_multi_axis_Hadamard_Product_Attention(c_list[5], c_list[4])
-        self.decoder2 = Grouped_multi_axis_Hadamard_Product_Attention(c_list[4], c_list[3])
-        self.decoder3 = Grouped_multi_axis_Hadamard_Product_Attention(c_list[3], c_list[2])
+        self.decoder1 = GHPA_InvRes(c_list[5], c_list[4])
+        self.decoder2 = GHPA_InvRes(c_list[4], c_list[3])
+        self.decoder3 = GHPA_InvRes(c_list[3], c_list[2])
         self.decoder4 = nn.Conv2d(c_list[2], c_list[1], 3, 1, 1)
         self.decoder5 = nn.Conv2d(c_list[1], c_list[0], 3, 1, 1)
         self.decoder6 = nn.Conv2d(c_list[0], num_classes, 1, 1, 0)
